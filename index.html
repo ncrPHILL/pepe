@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>shop</title>
+    <style>
+        #menu li {
+            display: inline;
+            margin-right: 5px;
+        }
+
+        #baner {
+            display: inline;
+            width: 500px;
+        }
+
+        #num {
+            text-align: end;
+        }
+
+        #rec {
+            display: inline;
+            width: 300px;
+        }
+
+        #card {
+            display: flex;
+        }
+
+        #card2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        #card2>div {
+            display: flex;
+            justify-content: center;
+        }
+
+        #card2 div div {
+            text-align: center;
+            width: 200px;
+            margin-right: 200px;
+        }
+
+        #card div>img {
+            height: 300px;
+            width: 300px;
+        }
+
+        #catalog {
+            flex: 3;
+        }
+
+        #filter {
+            flex: 1;
+        }
+
+        #store {
+            display: flex;
+        }
+
+        #ava {
+            width: 50px;
+            height: 50px;
+        }
+
+        #megadiv {
+            display: flex;
+        }
+
+        #main {
+            flex: 3;
+        }
+
+        #aside {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <p id="num">+3806996699669</p>
+        <h1>
+            <center>MotoZone</center>
+        </h1>
+        <nav>
+            <center>
+                <ul id="menu">
+                    <li><a href="#Golovna">Головна</a></li>
+                    <li><a href="#Katalog">Каталог</a></li>
+                    <li><a href="#Aks">Аксесуари</a></li>
+                    <li><a href="#ProNas">Про нас</a></li>
+                    <li><a href="#Kon">Контакти</a></li>
+                </ul>
+            </center>
+        </nav>
+        <center>
+            <img id="baner" src="moto1.png">
+            <img id="baner" src="baner2.png">
+            <img id="baner" src="moto2.png">
+        </center>
+    </header>
+    <div id="megadiv">
+        <main id="main">
+            <section>
+                <center>
+                    <h2>Головна</h2>
+                </center>
+                <center>
+                    <pre><b>Компанія «MotoZonа»</b> займається продажем мототехніки різних видів та брендів в Україні, <i>як нових, так і б/в</i>.
+
+    На сайті <i><b>motozona.com.ua</b></i> Ви знайдете скутери, мотоцикли, в т.ч. кросові, квадроцикли, мопеди, а також різноманітні аксесуари до них. Весь час нашого перебування на ринку ми співпрацюємо лише з перевіреними 
+    виробниками, що відомі своїм великим модельним рядом, високою якістю продукції та постійною наявністю запчастин.</pre>
+                </center>
+                <hr>
+                <center>
+                    <ul id="menu">
+                        <li><a href="#sk">Скутери</a></li>
+                        <li><a href="#kl">Класичні</a></li>
+                        <li><a href="#pz">Позашляхові</a></li>
+                        <li><a href="#sp">Спортивні</a></li>
+                        <li><a href="#kr">Круїзери</a></li>
+                        <li><a href="#st">Спортивно-туристичні</a></li>
+                        <li><a href="#te">Туристичні ендуро</a></li>
+                    </ul>
+                </center>
+                <hr>
+                <center>
+                    <div id="card">
+                        <div><img id="rec" src="motoc1.jpg">
+                            <h3>BMW G 310 R</h3>
+                            <p>$20,000</p>
+                        </div>
+                        <div><img id="rec" src="motoc2.jpg">
+                            <h3>Honda СB300R</h3>
+                            <p>$13,000</p>
+                        </div>
+                        <div><img id="rec" src="motoc3.jpg">
+                            <h3>KTM DUKE</h3>
+                            <p>$17,500</p>
+                        </div>
+                        <div><img id="rec" src="motoc4.jpg">
+                            <h3>Kawasaki Versys-X 300</h3>
+                            <p>$69,000</p>
+                        </div>
+                        <div><img id="rec" src="motoc5.jpg">
+                            <h3>Yamaha MT-03</h3>
+                            <p>$32,000</p>
+                        </div>
+                        <div><img id="rec" src="motoc6.jpg">
+                            <h3>Yamaha YBR125</h3>
+                            <p>$42,000</p>
+                        </div>
+                    </div>
+                </center>
+            </section>
+            <hr>
+            <section>
+                <center>
+                    <h2>Каталог</h2>
+                </center>
+                <div id="store">
+                    <aside id="filter">
+                        <form>
+                            <h3>Колiр</h3>
+                            <input type="checkbox">Червоний
+                            <input type="checkbox">Блакитний
+                            <input type="checkbox">Чорний
+                            <input type="checkbox">Бiлий
+                            <h3>Виробник</h3>
+                            <input type="checkbox">Harley-Davidson
+                            <input type="checkbox">Suzuki
+                            <input type="checkbox">Kawasaki
+                            <input type="checkbox">Lamsport
+                            <h3>Двигун</h3>
+                            <input type="checkbox">Бокстери
+                            <input type="checkbox">V2
+                            <input type="checkbox">Трьохциліндрові
+                            <input type="checkbox">Чотірьохциліндрові
+                            <h3>Об'єм</h3>
+                            <input type="checkbox">300 см³
+                            <input type="checkbox">400 см³
+                            <input type="checkbox">500 см³
+                            <input type="checkbox">200 см³
+                        </form>
+                    </aside>
+                    <div id="catalog">
+                        <center>
+                            <div id="card2">
+                                <div>
+                                    <div><img id="rec" src="motoc1.jpg">
+                                        <h3>BMW G 310 R</h3>
+                                        <p>$20,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                    <div><img id="rec" src="motoc2.jpg">
+                                        <h3>Honda СB300R</h3>
+                                        <p>$13,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                    <div><img id="rec" src="motoc3.jpg">
+                                        <h3>KTM DUKE</h3>
+                                        <p>$17,500</p>
+                                        <button>🛒</button>
+                                    </div>
+                                </div>
+                                <br>
+                                <div>
+                                    <div><img id="rec" src="motoc4.jpg">
+                                        <h3>Kawasaki Versys-X 300</h3>
+                                        <p>$69,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                    <div><img id="rec" src="motoc5.jpg">
+                                        <h3>Yamaha MT-03</h3>
+                                        <p>$32,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                    <div><img id="rec" src="motoc6.jpg">
+                                        <h3>Yamaha YBR125</h3>
+                                        <p>$42,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                </div>
+                                <br>
+                                <div>
+                                    <div><img id="rec" src="motoc7.jpg">
+                                        <h3>Triumph</h3>
+                                        <p>$69,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                    <div><img id="rec" src="motoc8.jpg">
+                                        <h3>Kawasaki Vulkan 1700 Voyager</h3>
+                                        <p>$32,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                    <div><img id="rec" src="motoc9.jpg">
+                                        <h3>Can-Am Spyder RT Limited</h3>
+                                        <p>$42,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                </div>
+                                <br>
+                                <div>
+                                    <div><img id="rec" src="motoc10.jpg">
+                                        <h3>Star Motorcycles V Star 1300 Deluxe</h3>
+                                        <p>$69,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                    <div><img id="rec" src="motoc11.jpg">
+                                        <h3>Ducati Mustistrada S 1200</h3>
+                                        <p>$32,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                    <div><img id="rec" src="motoc12.jpg">
+                                        <h3>Victory Cross Country Tour</h3>
+                                        <p>$42,000</p>
+                                        <button>🛒</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section>
+                <center>
+                    <h2>Про нас</h2>
+                </center>
+                <center>
+                    <pre>Компания MotoZone была основана в начале 2000-х годов группой энтузиастов мототехники, стремящихся
+    создать место, где каждый любитель двухколесного транспорта мог бы найти идеальный мотоцикл. Изначально
+    MotoZone начиналась как небольшой магазин подержанных байков, но благодаря вниманию к качеству и
+    клиентскому сервису быстро завоевала доверие покупателей. Уже через несколько лет компания расширила
+    ассортимент, включив в него новые модели от ведущих мировых производителей, таких как BMW, Yamaha,
+    Honda, Kawasaki и KTM.
+
+    К 2010 году MotoZone превратилась в одного из крупнейших дистрибьюторов мототехники, предлагая не только
+    мотоциклы, но и экипировку, запчасти и сервисное обслуживание. Развитие онлайн-магазина позволило выйти
+    на международный рынок, а участие в мотофестивалях и гонках помогло укрепить репутацию бренда. Сегодня
+    MotoZone продолжает расти, оставаясь символом качества и надежности для байкеров по всему миру.</pre>
+                </center>
+                <center>
+                    <img id="baner" src="photo1.jpg">
+                    <img id="baner" src="photo4.jpg">
+                    <img id="baner" src="photo2.jpg">
+                    <img id="baner" src="photo3.jpg">
+                </center>
+                <hr>
+                <div>
+                    <img id="ava" src="ava2.png"> <span>Литвиненко Жарік</span>
+                    <pre>       Дуже добре! Розбився.⭐⭐⭐⭐⭐</pre>
+                </div>
+                <div>
+                    <img id="ava" src="ava1.png"> <span>Серебряков Гарік</span>
+                    <pre>       Не вставлено JS.👎 ⭐</pre>
+                </div>
+                <div>
+                    <img id="ava" src="ava3.png"> <span>Червоніс Марік</span>
+                    <pre>       Ок. ⭐⭐⭐⭐⭐</pre>
+                </div>
+                <div>
+                    <img id="ava" src="ava4.png"> <span>Везне Сарік</span>
+                    <pre>       ... ✡✡✡✡✡</pre>
+                </div>
+            </section>
+            <hr>
+        </main>
+
+        <aside id="aside">
+            <div>
+                <img src="ban1.png" alt="Сервісне обслуговування" style="width: 100%;">
+            </div>
+            <br>
+            <div>
+                <img src="ban2.jpeg" alt="Знижка на екіпірування" style="width: 100%;">
+            </div>
+            <br>
+            <h3>Популярні моделі</h3>
+            <ul>
+                <li>BMW G 310 R - $20,000</li>
+                <li>Honda CB300R - $13,000</li>
+                <li>KTM DUKE - $17,500</li>
+                <li>Kawasaki Versys-X 300 - $69,000</li>
+                <li>Yamaha MT-03 - $32,000</li>
+            </ul>
+            <br>
+            <h3>Новини зі світу мотоспорту</h3>
+            <p><b>03.03.2025:</b> Новий сезон MotoGP розпочався в Катарі!</p>
+            <p><b>01.03.2025:</b> Ducati представила революційний електромотоцикл.</p>
+            <p><b>25.02.2025:</b> Kawasaki запускає нову серію спортивних байків.</p>
+        </aside>
+    </div>
+    <footer>
+        <center><p>&copy; 2025 MotoZone. Усі права захищено.</p></center>
+        <center><p>
+            <a href="#">Facebook</a> |
+            <a href="#">Instagram</a> |
+            <a href="#">Telegram</a> |
+            <a href="#">YouTube</a>
+        </p></center>
+        <center><p>
+            <a href="#">Гарантія</a> |
+            <a href="#">Доставка</a> |
+            <a href="#">Оплата</a>
+        </p></center>
+    </footer>
+    </div>
+</body>
+
+</html>
